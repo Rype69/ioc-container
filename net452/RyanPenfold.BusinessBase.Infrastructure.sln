@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.BusinessBase.Infrastructure", "RyanPenfold.BusinessBase.Infrastructure\RyanPenfold.BusinessBase.Infrastructure.csproj", "{411ED961-E753-47DC-B950-CE53EA93DA2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7983B84E-E5BC-4DD4-85BC-DF1E5D7E21EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.BusinessBase.Infrastructure.Tests.Unit", "RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit.csproj", "{BED8D2F8-3EE1-4787-A9B3-184601DD1B12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{411ED961-E753-47DC-B950-CE53EA93DA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411ED961-E753-47DC-B950-CE53EA93DA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411ED961-E753-47DC-B950-CE53EA93DA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411ED961-E753-47DC-B950-CE53EA93DA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED8D2F8-3EE1-4787-A9B3-184601DD1B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED8D2F8-3EE1-4787-A9B3-184601DD1B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED8D2F8-3EE1-4787-A9B3-184601DD1B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED8D2F8-3EE1-4787-A9B3-184601DD1B12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BED8D2F8-3EE1-4787-A9B3-184601DD1B12} = {7983B84E-E5BC-4DD4-85BC-DF1E5D7E21EC}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ryanpenfold.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RyanPenfold.BusinessBase.Infrastructure\\RyanPenfold.BusinessBase.Infrastructure.csproj
+		SccProjectName1 = RyanPenfold.BusinessBase.Infrastructure
+		SccLocalPath1 = RyanPenfold.BusinessBase.Infrastructure
+		SccProjectUniqueName2 = RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName2 = RyanPenfold.BusinessBase.Infrastructure.sln
+		SccProjectName2 = RyanPenfold.BusinessBase.Infrastructure.Tests.Unit
+		SccLocalPath2 = RyanPenfold.BusinessBase.Infrastructure.Tests.Unit
+	EndGlobalSection
+EndGlobal

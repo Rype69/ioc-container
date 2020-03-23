@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>%24/RyanPenfold.BusinessBase.Infrastructure/netstandard2.0/RyanPenfold.BusinessBase.Infrastructure</SccProjectName>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <SccAuxPath>https://ryanpenfold.visualstudio.com</SccAuxPath>
+    <SccLocalPath>.</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\BaseService{T}.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\BusinessBase.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\EntityNotFoundException.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\CannotRemoveException.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\IAggregateRoot.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\IClassMap.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\IEntity.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\InvalidEnumValueException.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\IObserver.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\IRepository{T}.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\IService{T}.cs" />
+    <Compile Include="..\..\net45\RyanPenfold.BusinessBase.Infrastructure\ISubject.cs" />
+  </ItemGroup>  
+  
+</Project>
