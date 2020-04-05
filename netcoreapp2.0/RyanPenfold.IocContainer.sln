@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.IocContainer", "RyanPenfold.IocContainer\RyanPenfold.IocContainer.csproj", "{0024A18F-3FD9-4EA7-8031-BCBCE58066F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.IocContainer.Tests.Unit", "RyanPenfold.IocContainer.Tests.Unit\RyanPenfold.IocContainer.Tests.Unit.csproj", "{B441F597-A2FB-45DE-BDEA-C4CE7DAC27C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{82183628-2561-435E-A73A-CB391C2DF3BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Configuration", "..\..\configuration\netcoreapp2.0\RyanPenfold.Configuration\RyanPenfold.Configuration.csproj", "{0D6D5F30-05DE-48C4-A190-D17BE15113E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RyanPenfold.Configuration.Tests.Unit", "..\..\configuration\netcoreapp2.0\RyanPenfold.Configuration.Tests.Unit\RyanPenfold.Configuration.Tests.Unit.csproj", "{60F2C4BF-5E60-485A-A7D0-E47E4FF0C543}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0024A18F-3FD9-4EA7-8031-BCBCE58066F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0024A18F-3FD9-4EA7-8031-BCBCE58066F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0024A18F-3FD9-4EA7-8031-BCBCE58066F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0024A18F-3FD9-4EA7-8031-BCBCE58066F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B441F597-A2FB-45DE-BDEA-C4CE7DAC27C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B441F597-A2FB-45DE-BDEA-C4CE7DAC27C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B441F597-A2FB-45DE-BDEA-C4CE7DAC27C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B441F597-A2FB-45DE-BDEA-C4CE7DAC27C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6D5F30-05DE-48C4-A190-D17BE15113E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6D5F30-05DE-48C4-A190-D17BE15113E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6D5F30-05DE-48C4-A190-D17BE15113E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6D5F30-05DE-48C4-A190-D17BE15113E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F2C4BF-5E60-485A-A7D0-E47E4FF0C543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F2C4BF-5E60-485A-A7D0-E47E4FF0C543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F2C4BF-5E60-485A-A7D0-E47E4FF0C543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F2C4BF-5E60-485A-A7D0-E47E4FF0C543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B441F597-A2FB-45DE-BDEA-C4CE7DAC27C8} = {82183628-2561-435E-A73A-CB391C2DF3BF}
+		{60F2C4BF-5E60-485A-A7D0-E47E4FF0C543} = {82183628-2561-435E-A73A-CB391C2DF3BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DE0D6D8-621A-4AE5-A5E8-F12B25DE283B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ryanpenfold.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RyanPenfold.IocContainer.Tests.Unit\\RyanPenfold.IocContainer.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName1 = RyanPenfold.IocContainer.sln
+		SccProjectName1 = ../../RyanPenfold.IocContainer/netcoreapp2.0/RyanPenfold.IocContainer.Tests.Unit
+		SccLocalPath1 = RyanPenfold.IocContainer.Tests.Unit
+		SccProjectUniqueName2 = RyanPenfold.IocContainer\\RyanPenfold.IocContainer.csproj
+		SccProjectName2 = ../../RyanPenfold.IocContainer/netcoreapp2.0/RyanPenfold.IocContainer
+		SccLocalPath2 = RyanPenfold.IocContainer
+		SccProjectUniqueName3 = ..\\..\\configuration\\netcoreapp2.0\\RyanPenfold.Configuration\\RyanPenfold.Configuration.csproj
+		SccProjectName3 = ../../RyanPenfold.Configuration/netcoreapp2.0/RyanPenfold.Configuration
+		SccLocalPath3 = ..\\..\\configuration\\netcoreapp2.0\\RyanPenfold.Configuration
+		SccProjectUniqueName4 = ..\\..\\configuration\\netcoreapp2.0\\RyanPenfold.Configuration.Tests.Unit\\RyanPenfold.Configuration.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName4 = RyanPenfold.IocContainer.sln
+		SccProjectName4 = ../../RyanPenfold.Configuration/netcoreapp2.0/RyanPenfold.Configuration.Tests.Unit
+		SccLocalPath4 = ..\\..\\configuration\\netcoreapp2.0\\RyanPenfold.Configuration.Tests.Unit
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.IocContainer", "RyanPenfold.IocContainer\RyanPenfold.IocContainer.csproj", "{8C6FD3A5-69FD-4480-87D0-FF49B57B9B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanPenfold.IocContainer.Tests.Unit", "RyanPenfold.IocContainer.Tests.Unit\RyanPenfold.IocContainer.Tests.Unit.csproj", "{F4ACE152-D79A-4886-908E-F5A525ED1F6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{48EE9071-843A-4674-84A6-33B8A2335748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C6FD3A5-69FD-4480-87D0-FF49B57B9B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6FD3A5-69FD-4480-87D0-FF49B57B9B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6FD3A5-69FD-4480-87D0-FF49B57B9B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6FD3A5-69FD-4480-87D0-FF49B57B9B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4ACE152-D79A-4886-908E-F5A525ED1F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4ACE152-D79A-4886-908E-F5A525ED1F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4ACE152-D79A-4886-908E-F5A525ED1F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4ACE152-D79A-4886-908E-F5A525ED1F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4ACE152-D79A-4886-908E-F5A525ED1F6A} = {48EE9071-843A-4674-84A6-33B8A2335748}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8055916-1041-47E8-A42E-2D0412D9D43B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ryanpenfold.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RyanPenfold.IocContainer\\RyanPenfold.IocContainer.csproj
+		SccProjectName1 = RyanPenfold.IocContainer
+		SccLocalPath1 = RyanPenfold.IocContainer
+		SccProjectUniqueName2 = RyanPenfold.IocContainer.Tests.Unit\\RyanPenfold.IocContainer.Tests.Unit.csproj
+		SccProjectTopLevelParentUniqueName2 = RyanPenfold.IocContainer.sln
+		SccProjectName2 = RyanPenfold.IocContainer.Tests.Unit
+		SccLocalPath2 = RyanPenfold.IocContainer.Tests.Unit
+	EndGlobalSection
+EndGlobal
